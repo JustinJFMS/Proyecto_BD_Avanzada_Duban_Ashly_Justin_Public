@@ -1,34 +1,39 @@
-🛒 Proyecto de Base de Datos para un E-commerce
 
-Este proyecto tiene como objetivo diseñar, implementar y probar una base de datos avanzada para un sistema de comercio electrónico. La base de datos gestiona información sobre productos, clientes, ventas, categorías y transacciones, aplicando conceptos de modelado relacional, integridad referencial, procedimientos almacenados, triggers, funciones y vistas para optimizar el manejo de la información.
+---
 
-👥 Integrantes
+## 📦 Para: `Proyecto_BD_Avanzada_Duban_Ashly_Justin_Public`
 
-Ashly Nicole Pérez López
+```markdown
+# Proyecto BD Avanzada – Base de datos para E-commerce
 
-Duban Alfredo Marquez Quintero
+## Qué es?
 
-Justin Ferney Moreno Soto
+Este proyecto corresponde al diseño e implementación de una base de datos relacional para un sistema de comercio electrónico. Incluye la estructura de tablas, relaciones, restricciones, así como lógica avanzada mediante procedimientos almacenados, funciones, triggers, vistas y consultas especializadas.
 
-⚙️ Instrucciones de Ejecución
+## 📂 Estructura y contenido
 
-Para construir y ejecutar correctamente la base de datos del proyecto, sigue el siguiente orden de ejecución de los scripts SQL:
+- **01_Esquema_y_Datos.sql** — crea la estructura de la base de datos y carga datos iniciales (productos, clientes, categorías, etc.).  
+- **02_Consultas_Avanzadas.sql** — consultas complejas para análisis y reportes.  
+- **03_Funciones.sql** — funciones definidas por el usuario para lógica reutilizable.  
+- **04_Seguridad.sql** — definición de roles/privilegios, políticas de acceso.  
+- **05_Triggers.sql** — triggers para mantenimiento automático de integridad o auditoría.  
+- **06_Eventos.sql** — eventos programados (si aplica).  
+- **07_Procedimientos_Almacenados.sql** — procedimientos para operaciones comunes o transaccionales.  
+- **EvalucionSQL2.sql** — conjunto de consultas de prueba / evaluación para validar la base.  
 
-Ejecutar 01_Esquema_y_Datos.sql
-Crea la estructura de la base de datos (tablas, relaciones y restricciones) y carga los datos iniciales.
+##  Cómo desplegar / probar
 
-Ejecutar los scripts del 02 al 07 en orden
-Implementan la lógica avanzada del sistema, incluyendo:
+1. Ejecutar `01_Esquema_y_Datos.sql` para crear la base de datos y tablas, y cargar datos iniciales.  
+2. Ejecutar en orden los scripts del 02 al 07 para implementar lógica avanzada (triggers, funciones, procedimientos, vistas).  
+3. (Opcional) Ejecutar `EvalucionSQL2.sql` para revisar consultas de prueba que demuestran la funcionalidad de la base.  
+4. Revisar resultados, probar integridad, constraints, vistas y lógica interna implementada.  
 
-Procedimientos almacenados
+## 👥 Integrantes
 
-Funciones
+- Ashly Nicole Pérez López  
+- Duban Alfredo Márquez Quintero  
+- Justin Ferney Moreno Soto  
 
-Vistas
+##  Finalidad del proyecto
 
-Triggers
-
-Consultas de análisis y predicción de demanda
-
-Verificar la ejecución
-Al finalizar, puedes probar las consultas de ejemplo incluidas para validar el correcto funcionamiento de la base de datos.
+Este proyecto representa una base de datos robusta pensada para un sistema de e-commerce. Sirve como práctica de modelado relacional, normalización, seguridad, automatización de lógica en base de datos y optimización de consultas. Es útil como referencia académica o como base para construir un backend real conectado a dicha base de datos.
